@@ -11,6 +11,11 @@ export default class Sidebar extends React.Component {
         </li>
       );
     });
-    return <section>{folders}</section>;
+    return (
+      <section>
+        {folders}
+        <button className="addFolder">Add Folder</button>
+      </section>
+    );
   }
 }
