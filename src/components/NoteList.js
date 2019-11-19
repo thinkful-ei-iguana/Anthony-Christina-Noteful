@@ -9,9 +9,15 @@ export default class NoteList extends React.Component {
         <li className="notesList">
           <h2>{note.name}</h2>
           <p>Last modified on {note.modified}</p>
+          <button className="deleteBtn">Delete Note</button>
         </li>
       );
     });
-    return <main>{notes}</main>;
+    return (
+      <main>
+        {notes}
+        <button className="addNote">Add Note</button>
+      </main>
+    );
   }
 }
