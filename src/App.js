@@ -26,12 +26,12 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <div className="group">
-          <div className="column">
+          <div className="folder-column">
             <div className="left">
               <Sidebar setFolder={this.setFolder} />
             </div>
           </div>
-          <div className="column">
+          <div className="note-column">
             <div className="right">
               <Route path="/folder/:folderId" component={NoteList}></Route>
               <Route path="/note/:noteId" component={Note}></Route>

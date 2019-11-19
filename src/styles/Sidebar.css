@@ -1,4 +1,12 @@
 .foldersList {
   list-style: none;
-  border: 1px solid #000;
+  border: 1px dashed #000;
+}
+
+li:hover {
+  background-color: magenta;
+}
+
+.addFolder {
+  background-color: magenta;
 }

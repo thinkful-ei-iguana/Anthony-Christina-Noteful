@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import STORE from "./Store";
+import "../styles/Note.css";
 import { format } from "date-fns";
 
 export default function Note(props) {

@@ -5,7 +5,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <header>
-        <h1>Noteful</h1>
+        <h1>Note-ify</h1>
       </header>
     );
   }
