@@ -1,4 +1,9 @@
 header h1 {
-  font-weight: 200;
+  font-size: 6rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkblue;
+  width: 70%;
+  border: 2px dotted magenta;
+  font-weight: 300;
   text-align: center;
 }

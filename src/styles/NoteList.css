@@ -3,6 +3,10 @@
   border: 1px solid #000;
 }
 
-.notesList h2,
-p {
+.notesList h2 {
+  margin: 2px;
+  padding: 2px;
+  color: darkblue;
 }
+ 
+
