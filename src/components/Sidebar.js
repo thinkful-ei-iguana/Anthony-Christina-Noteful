@@ -1,24 +1,17 @@
 import React from "react";
 import "../styles/Sidebar.css";
 import STORE from "./Store";
+import { Link } from "react-router-dom";
 
 export default class Sidebar extends React.Component {
-  renderfolder() {
-    const folderId = STORE.folders.filter(id => {
-      if (id === STORE.notes.folderId) {
-        return folderId;
-      }
-    });
-  }
-
   render() {
     const folders = STORE.folders.map(folder => {
       return (
-        <button className="folderBtn" onClick={this.renderFolder}>
-          <li className="foldersList">
+        <li key={folder.id} className="foldersList">
+          <Link to={`/folder/${folder.id}`} className="folderBtn">
             <h2>{folder.name}</h2>
-          </li>
-        </button>
+          </Link>
+        </li>
       );
     });
     return (
