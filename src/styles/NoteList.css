@@ -1,0 +1,8 @@
+.notesList {
+  list-style: none;
+  border: 1px solid #000;
+}
+
+.notesList h2,
+p {
+}
